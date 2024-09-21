@@ -1,0 +1,41 @@
+.btn{
+    padding: 10px 45px !important;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(rgba(0,  0,0, 0.7),rgba(0,0,0,0.7) ),  url(background.jpg);
+    backdrop-filter: blur(5px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.navbar{
+    background-color: rgba(154, 154, 154, 0.197)
+    ;
+    backdrop-filter: blur(10px);
+}
+
+
+.nav-item .nav-link{
+    color: #FFCA2C!important;
+
+    
+}
+.main-container h1{
+    font-size: 70px!important;
+}
+ .main-img{
+
+    width: 700px;
+    height: 700px;
+    animation:spin 30s linear infinite;
+}
+
+@keyframes spin { 
+    100% { 
+         
+        transform:rotate(360deg); 
+    } 
+ }
